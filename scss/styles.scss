@@ -115,24 +115,25 @@ select {
 // Navigation start
 .navbar-custom {
   padding: 0;
-  background-color: var(--clr-darkest);
   color: var(--clr-white);
   z-index: 101;
+  border-bottom: 3px solid var(--clr-light);
 }
 
 .link-custom {
-  padding: 1.5rem 0;
+  padding: 2rem 0;
 }
 
 .link-custom:hover {
-  background-color: var(--clr-white);
-  color: var(--clr-black) !important;
+  background-color: #173d3e;
+  color: white !important;
 }
 
 .navbar-brand-custom {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  padding: 0 !important;
 }
 
 .custom-icon {
